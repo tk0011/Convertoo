@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Speed Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-3">Speed Converter</h1>
+               
+                <br>
+            <form>
+                <div class="form-group">
+                    <input id="kmhInput" type="number" class="form-control form-control-lg" placeholder="Enter speed in km/hr...">
+                </div>
+            </form>
+        <br>
+        <div id="output-speed">
+
+               
+            <div class="card bg-warning">
+                <div class="card-body">
+                    <h4>Meters per second (m/s) :</h4>
+                    <div id="milsecOutput"></div>
+                </div>
+            </div>
+        <br>
+
+        <div class="card bg-info">
+            <div class="card-body">
+                <h4>Kilometers per second (km/s) :</h4>
+                <div id="kmsOutput"></div>
+            </div>
+        </div>
+<br>
+
+<div class="card bg-dark">
+    <div class="card-body">
+        <h4>Kilometers per minute (km/min) :</h4>
+        <div id="kmMinOutput"></div>
+    </div>
+</div>
+<br>
+
+<div class="card bg-success">
+    <div class="card-body">
+        <h4>Meters per minute (m/min) :</h4>
+        <div id="metMinOutput"></div>
+    </div>
+</div>
+<br>
+
+        <div class="card bg-secondary">
+            <div class="card-body">
+                <h4>Miles per hour (mi/hr):</h4>
+                <div id="milHrOutput"></div>
+            </div>
+        </div>
+<br>
+         
+        <div class="card bg-danger">
+    <div class="card-body">
+        <h4>Meters per hour (m/hr) :</h4>
+        <div id="mHrOutput"></div>
+    </div>
+</div>
+<br>
+
+    </div>
+</div>
+           
+</div>
+</div>
+<script src="/Speed/speed.js"></script>
+</body>
+</html>

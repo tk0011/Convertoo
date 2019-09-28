@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Volume Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-3">Volume Converter</h1>
+               
+                <br>
+            <form>
+                <div class="form-group">
+                    <input id="mInput" type="number" class="form-control form-control-lg" placeholder="Enter Liters...">
+                </div>
+            </form>
+        <br>
+        <div id="output-volume">
+
+               
+            <div class="card bg-success">
+                <div class="card-body">
+                    <h4>Milliliters:</h4>
+                    <div id="milLOutput"></div>
+                </div>
+            </div>
+        <br>
+
+        <div class="card bg-info">
+            <div class="card-body">
+                <h4>US Ounces:</h4>
+                <div id="USoOutput"></div>
+            </div>
+        </div>
+<br>
+
+<div class="card bg-info">
+    <div class="card-body">
+        <h4>UK Ounces:</h4>
+        <div id="UKoOutput"></div>
+    </div>
+</div>
+<br>
+
+        <div class="card bg-warning">
+            <div class="card-body">
+                <h4> US Pints</h4>
+                <div id="USpOutput"></div>
+            </div>
+        </div>
+<br>
+
+
+<div class="card bg-warning">
+    <div class="card-body">
+        <h4> UK Pints</h4>
+        <div id="UKpOutput"></div>
+    </div>
+</div>
+<br>
+
+
+            <div class="card bg-danger">
+                <div class="card-body">
+                    <h4>US Gallons:</h4>
+                    <div id="USgOutput"></div>
+                </div>
+            </div>
+            <br>
+      
+            <div class="card bg-danger">
+                <div class="card-body">
+                    <h4>UK Gallons:</h4>
+                    <div id="UKgOutput"></div>
+                </div>
+            </div>
+<br>
+    </div>
+</div>
+           
+</div>
+</div>
+<script src="/Volume/volume.js"></script>
+</body>
+</html>

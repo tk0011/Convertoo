@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-3">Temperature Converter</h1>
+                <br>
+            <form>
+                <div class="form-group">
+                    <input id="celInput" type="number" class="form-control form-control-lg" placeholder="Temperature in Celsius...">
+                </div>
+            </form>
+        <br>
+        <div id="output-temp">
+            <div class="card bg-success">
+                <div class="card-body">
+                    <h4>Farenheit:</h4>
+                    <div id="farOutput"></div>
+                </div>
+            </div>
+        <br>
+            <div class="card bg-info">
+                <div class="card-body">
+                    <h4>Kelvin:</h4>
+                    <div id="kelOutput"></div>
+                </div>
+            </div>
+            <br>
+    </div>
+</div>
+</div>
+</div>
+<script src="/temperature/temperature.js"></script>
+</body>
+</html>
