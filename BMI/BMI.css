@@ -37,17 +37,23 @@ p {
 }
 
 #height {
-    height : 20px;
-    padding-top: 8px;
+    height: 20px;
+    width: 150px;
+    padding: 12px 10px 5px 10px;
     border-radius: 15px;
     text-align: center;
+    outline: none;
+    font-size: 20px;
 }
 
 #weight {
-    height : 20px;
-    padding-top: 8px;
+    height: 20px;
+    width: 150px;
+    padding: 12px 10px 5px 10px;
     border-radius: 15px;
     text-align: center;
+    outline: none;
+    font-size: 20px;
 }
 
 .btn {
@@ -55,10 +61,15 @@ p {
     width: 80px;
     border-radius: 15px;
     background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 #weightunits , #heightunits {
-    height : 20px;
+    height : 30px;
     border-radius : 8px;
     font-size: 15px;
+    padding: 5px;
+    outline: none;
 }
